@@ -1,7 +1,7 @@
 <p align="center"><img width="140"src="https://raw.githubusercontent.com/SortableJS/Vue.Draggable/master/logo.svg?sanitize=true"></p>
 <h1 align="center">Vue.Draggable with lock-axis</h1>
 
-This library is a lock-axis version of [Vue.Draggable](https://sortablejs.github.io/Vue.Draggable/). Supports fixed axis on horizontal or vertical direction.
+This library is a lock-axis version of [Vue.Draggable](https://sortablejs.github.io/Vue.Draggable/) for Vue 2.0. Supports fixed axis on horizontal or vertical direction.
 
 
 To lock axis, just add options fallbackAxis: 'x' or 'y' and forceFallback: true.<br>
@@ -16,21 +16,6 @@ https://chelseachel.github.io/Vue.Draggable-Lock-Axis/
 $ npm uninstall vuedraggable --save
 $ npm install vuedraggable-axis --save
 ```
-
-**Beware it is vuedraggable for Vue 2.0 and not vue-draggable which is for version 1.0**
-
-### with direct link 
-```html
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.min.js"></script>
-<!-- CDNJS :: Sortable (https://cdnjs.com/) -->
-<script src="//cdn.jsdelivr.net/npm/sortablejs@1.8.4/Sortable.min.js"></script>
-<!-- CDNJS :: Vue.Draggable (https://cdnjs.com/) -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/Vue.Draggable/2.20.0/vuedraggable.umd.min.js"></script>
-
-```
-
-[cf example section](https://github.com/SortableJS/Vue.Draggable/tree/master/example)
 
 ## For Vue.js 2.0
 
