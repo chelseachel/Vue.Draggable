@@ -1,4 +1,4 @@
-import Sortable from "sortablejs";
+import Sortable from "sortable-axis";
 import { insertNodeAt, camelize, console, removeNode } from "./util/helper";
 
 function buildAttribute(object, propName, value) {

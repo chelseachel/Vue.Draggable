@@ -32,6 +32,8 @@
         class="list-group"
         ghost-class="ghost"
         :move="checkMove"
+        forceFallback="true"
+        fallbackAxis="y"
         @start="dragging = true"
         @end="dragging = false"
       >

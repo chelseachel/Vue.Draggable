@@ -1,68 +1,20 @@
 <p align="center"><img width="140"src="https://raw.githubusercontent.com/SortableJS/Vue.Draggable/master/logo.svg?sanitize=true"></p>
-<h1 align="center">Vue.Draggable</h1>
+<h1 align="center">Vue.Draggable with lock-axis</h1>
 
-[![CircleCI](https://circleci.com/gh/SortableJS/Vue.Draggable.svg?style=shield)](https://circleci.com/gh/SortableJS/Vue.Draggable)
-[![Coverage](https://codecov.io/gh/SortableJS/Vue.Draggable/branch/master/graph/badge.svg)](https://codecov.io/gh/SortableJS/Vue.Draggable)
-[![codebeat badge](https://codebeat.co/badges/7a6c27c8-2d0b-47b9-af55-c2eea966e713)](https://codebeat.co/projects/github-com-sortablejs-vue-draggable-master)
-[![GitHub open issues](https://img.shields.io/github/issues/SortableJS/Vue.Draggable.svg)](https://github.com/SortableJS/Vue.Draggable/issues?q=is%3Aopen+is%3Aissue)
-[![npm download](https://img.shields.io/npm/dt/vuedraggable.svg?maxAge=30)](https://www.npmjs.com/package/vuedraggable)
-[![npm download per month](https://img.shields.io/npm/dm/vuedraggable.svg)](https://www.npmjs.com/package/vuedraggable)
-[![npm version](https://img.shields.io/npm/v/vuedraggable.svg)](https://www.npmjs.com/package/vuedraggable)
-[![MIT License](https://img.shields.io/github/license/SortableJS/Vue.Draggable.svg)](https://github.com/SortableJS/Vue.Draggable/blob/master/LICENSE)
+This library is a lock-axis version of [Vue.Draggable](https://sortablejs.github.io/Vue.Draggable/). Supports fixed axis on horizontal or vertical direction.
 
 
-Vue component (Vue.js 2.0) or directive (Vue.js 1.0) allowing drag-and-drop and synchronization with view model array.
-
-Based on and offering all features of [Sortable.js](https://github.com/RubaXa/Sortable)
-
+To lock axis, just add options fallbackAxis: 'x' or 'y' and forceFallback: true.
+Checkout the simple list example in the demo page.
 ## Demo
-
-![demo gif](https://raw.githubusercontent.com/SortableJS/Vue.Draggable/master/example.gif)
-
-## Live Demos
-
-https://sortablejs.github.io/Vue.Draggable/
-
-https://david-desmaisons.github.io/draggable-example/
-
-## Features
-
-* Full support of [Sortable.js](https://github.com/RubaXa/Sortable) features:
-    * Supports touch devices
-    * Supports drag handles and selectable text
-    * Smart auto-scrolling
-    * Support drag and drop between different lists
-    * No jQuery dependency
-* Keeps in sync HTML and view model list
-* Compatible with Vue.js 2.0 transition-group
-* Cancellation support
-* Events reporting any changes when full control is needed
-* Reuse existing UI library components (such as [vuetify](https://vuetifyjs.com), [element](http://element.eleme.io/), or [vue material](https://vuematerial.io) etc...) and make them draggable using `tag` and `componentData` props
-
-## Backers
-
- <a href="https://flatlogic.com/admin-dashboards">
- <img width="190" style="margin-top: 10px;" src="https://flatlogic.com/assets/logo-d9e7751df5fddd11c911945a75b56bf72bcfe809a7f6dca0e32d7b407eacedae.svg">
- </a>
-
-Admin Dashboard Templates made with Vue, React and Angular.
-
-
-## Donate
-
-Find this project useful? You can buy me a :coffee: or a :beer:
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=GYAEKQZJ4FQT2&currency_code=USD&source=url)
-
-
+https://chelseachel.github.io/Vue.Draggable-Lock-Axis/
 ## Installation
 
-### With npm or yarn 
+### With npm
 
 ```bash
-yarn add vuedraggable
-
-npm i -S vuedraggable
+$ npm uninstall vuedraggable --save
+$ npm install vuedraggable-axis --save
 ```
 
 **Beware it is vuedraggable for Vue 2.0 and not vue-draggable which is for version 1.0**

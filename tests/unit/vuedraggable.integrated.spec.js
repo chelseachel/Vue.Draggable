@@ -1,7 +1,7 @@
 import { mount } from "@vue/test-utils";
-import Sortable from "sortablejs";
-jest.genMockFromModule("sortablejs");
-jest.mock("sortablejs");
+import Sortable from "sortable-axis";
+jest.genMockFromModule("sortable-axis");
+jest.mock("sortable-axis");
 const SortableFake = {
   destroy: jest.fn(),
   option: jest.fn(),

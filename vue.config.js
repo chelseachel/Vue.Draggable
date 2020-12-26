@@ -9,10 +9,10 @@ const config = {
 
 if (process.env.NODE_ENV === "production") {
   config.configureWebpack.externals = {
-    sortablejs: {
-      commonjs: "sortablejs",
-      commonjs2: "sortablejs",
-      amd: "sortablejs",
+    sortableAxis: {
+      commonjs: "sortable-axis",
+      commonjs2: "sortable-axis",
+      amd: "sortable-axis",
       root: "Sortable"
     }
   };

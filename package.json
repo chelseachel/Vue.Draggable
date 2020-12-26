@@ -1,13 +1,13 @@
 {
-  "name": "vuedraggable",
-  "version": "2.24.3",
-  "description": "draggable component for vue",
+  "name": "vuedraggable-axis",
+  "version": "1.0.0",
+  "description": "A lock-axis version of Vue.Draggable.",
   "license": "MIT",
   "main": "dist/vuedraggable.umd.min.js",
   "types": "src/vuedraggable.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SortableJS/Vue.Draggable.git"
+    "url": "https://github.com/chelseachel/Vue.Draggable-Lock-Axis.git"
   },
   "private": false,
   "scripts": {
@@ -27,11 +27,12 @@
     "drop",
     "list",
     "Sortable.js",
+    "sortable-axis",
     "component",
     "nested"
   ],
   "dependencies": {
-    "sortablejs": "1.10.2"
+    "sortable-axis": "1.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
