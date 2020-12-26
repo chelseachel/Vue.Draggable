@@ -4,7 +4,7 @@
 This library is a lock-axis version of [Vue.Draggable](https://sortablejs.github.io/Vue.Draggable/). Supports fixed axis on horizontal or vertical direction.
 
 
-To lock axis, just add options fallbackAxis: 'x' or 'y' and forceFallback: true.
+To lock axis, just add options fallbackAxis: 'x' or 'y' and forceFallback: true.<br>
 Checkout the simple list example in the demo page.
 ## Demo
 https://chelseachel.github.io/Vue.Draggable-Lock-Axis/
