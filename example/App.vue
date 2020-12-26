@@ -103,7 +103,7 @@
                 class="icon github"
                 target="_blank"
                 :href="
-                  `https://github.com/SortableJS/Vue.Draggable/blob/master/example/components/${
+                  `https://github.com/chelseachel/Vue.Draggable-Lock-Axis/blob/master/example/components/${
                     component.name
                   }.vue`
                 "
